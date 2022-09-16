@@ -1,0 +1,100 @@
+{
+    "all":{
+        "mate1":{
+            "name":"Gaia",
+            "breed": "Cane Corso",
+            "img":"https://www.woopets.fr/assets/races/000/102/bannerbig2021/cane-corso_2.jpg",
+            "age" : "4",
+            "births" : "2",
+            "sex" : "female"
+        },
+        "mate2":{
+            "name":"Athena",
+            "breed": "Chihuahua",
+            "img":"https://www.woopets.fr/assets/races/000/159/bannerbig2021/chihuahua_2.jpg",
+            "age" : "3",
+            "births" : "1",
+            "sex" : "female"
+        },
+        "mate3":{
+            "name":"Polka",
+            "breed": "Husky",
+            "img":"https://www.woopets.fr/assets/races/000/213/bannerbig2021/husky-siberien_2.jpg",
+            "age" : "6",
+            "births" : "2",
+            "sex" : "female"
+        },
+        "mate4":{
+            "name":"Kratos",
+            "breed": "Rottweiller",
+            "img": "https://i.f1g.fr/media/cms/orig/2021/08/31/63e1b9ec646748091ea4a3d0678b2fbb7e025fc58d2f810fb5b794a974ba8909.jpg",
+            "age" : "4",
+            "births" : "2",
+            "sex" : "female"
+        },
+        "mate5":{
+            "name":"Vergil",
+            "breed": "Carlin",
+            "img":"https://www.woopets.fr/assets/races/000/104/bannerbig2021/carlin_2.jpg",
+            "age" : "5",
+            "births" : "3",
+            "sex" : "female"
+        },
+        "mate6":{
+            "name":"Wojtek",
+            "breed": "Berger Allemand",
+            "img":"https://www.woopets.fr/assets/races/000/006/bannerbig2021/berger-allemand_2.jpg",
+            "age" : "4",
+            "births" : "1",
+            "sex" : "female"
+        }
+    },
+    "mate1":{
+        "name":"Gaia",
+        "breed": "Cane Corso",
+        "img":"https://www.woopets.fr/assets/races/000/102/bannerbig2021/cane-corso_2.jpg",
+        "age" : "4",
+        "births" : "2",
+        "sex" : "female"
+    },
+    "mate2":{
+        "name":"Athena",
+        "breed": "Chihuahua",
+        "img":"https://www.woopets.fr/assets/races/000/159/bannerbig2021/chihuahua_2.jpg",
+        "age" : "3",
+        "births" : "1",
+        "sex" : "female"
+    },
+    "mate3":{
+        "name":"Polka",
+        "breed": "Husky",
+        "img":"https://www.woopets.fr/assets/races/000/213/bannerbig2021/husky-siberien_2.jpg",
+        "age" : "6",
+        "births" : "2",
+        "sex" : "female"
+    },
+    "mate4":{
+        "name":"Kratos",
+        "breed": "Rottweiller",
+        "img": "https://i.f1g.fr/media/cms/orig/2021/08/31/63e1b9ec646748091ea4a3d0678b2fbb7e025fc58d2f810fb5b794a974ba8909.jpg",
+        "age" : "4",
+        "births" : "2",
+        "sex" : "female"
+    },
+    "mate5":{
+        "name":"Vergil",
+        "breed": "Carlin",
+        "img":"https://www.woopets.fr/assets/races/000/104/bannerbig2021/carlin_2.jpg",
+        "age" : "5",
+        "births" : "3",
+        "sex" : "female"
+    },
+    "mate6":{
+        "name":"Wojtek",
+        "breed": "Berger Allemand",
+        "img":"https://www.woopets.fr/assets/races/000/006/bannerbig2021/berger-allemand_2.jpg",
+        "age" : "4",
+        "births" : "1",
+        "sex" : "female"
+    }  
+}
