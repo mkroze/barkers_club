@@ -1,28 +1,31 @@
 import { useState,useEffect } from "react";
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import db from "../utils/db";
 import axios from "axios";
+
+
 
 const Dog = (props) => {
 
   const router = useRouter();
   const query = router.query;
+
   const [info,setInfo]=useState({});
   
-  const getData = async  ()=>{
-    await axios.get('http://localhost:3001/'+query.name)
+  // const getData = async  ()=>{
+  //   await axios.get('http://localhost:3001/'+query.name)
     
-      .then(function (response) {
+  //     .then(function (response) {
 
-        setInfo(response.data);
+  //       setInfo(response.data);
+  //     })
+  //     .catch(function (error) {
+  //       console.log(error);
+  //     })
+  // }
 
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-  }
-
-  useEffect(  ()=>{  getData()  },[] );
-  console.log(info);
+  // useEffect(  ()=>{  getData()  },[] );
+  
   const {brief,history,physical,behaviour,education,condition,health,lifespan,hygiene,food,activity} = info ;//
   return (
   <section className="mt-12 mx-auto px-4 w-1/2 lg:px-8">
@@ -62,6 +65,16 @@ const Dog = (props) => {
 
   </div>
   </section>);
+}
+
+export async function getServerSideProps() {
+  await db.connect();
+  const dog = await Dog.findById(query.id).lean();
+  return {
+    props: {
+      items: items.map(db.convertDocToObj),
+    },
+  };
 }
 
 export default Dog;

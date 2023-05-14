@@ -53,14 +53,18 @@ const PartnerForm = () => {
                     <input type="email" id="email" 
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
                     focus:ring-green-200 focus:border-green-500 focus:bg-green-200 
-                    hover:ring-green-200 hover:border-green-500 block w-full p-2.5 " placeholder="woof@barkers.com" required/>
+                    hover:ring-green-200 hover:border-green-500 block w-full p-2.5 " 
+                    placeholder="woof@barkers.com" 
+                    required/>
                 </div> 
                 <div className="mb-6">
                     <label for="phone" className="block mb-2 text-sm font-medium text-green-600 ">Numero de telephone</label>
                     <input type="tel" id="phone" 
                     className="bg-gray-50 border border-2 border-gray-300 text-gray-900 text-sm rounded-lg 
                     focus:ring-green-200 focus:border-green-500 focus:bg-green-200 
-                    hover:ring-green-200 hover:border-green-500 block w-full p-2.5 " placeholder="06 11 82 18 00" required/>
+                    hover:ring-green-200 hover:border-green-500 block w-full p-2.5 " 
+                    placeholder="06 11 82 18 00" 
+                    required/>
                 </div> 
             
         

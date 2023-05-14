@@ -33,8 +33,8 @@ const Footer = () => {
             <div className="max-w-lg sm:mx-auto sm:text-center">
                 <img 
                 src="/logoBarkers.png" 
-                width={480} 
-                height={200}
+                width={48} 
+                height={20}
                 className='m-auto'
                 />
                 <p className="leading-relaxed mt-2 text-[15px]">

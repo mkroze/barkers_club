@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 const TrainingOffers = () => {
     const [offers,setOffers] = useState([
 		{
